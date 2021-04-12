@@ -50,7 +50,7 @@ class App extends Component{
     return (
     <Router>
       <div className="App">
-        <div className="">
+        <div className="mb-10">
           <nav className="text-center fixed bottom-0 bg-yellow-300 w-full py-4">
                 <Link className="w-8 text-4xl  bg-white rounded-full p-1" to="/">🍻</Link>
           </nav>
