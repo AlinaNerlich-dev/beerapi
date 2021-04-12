@@ -51,8 +51,8 @@ class App extends Component{
     <Router>
       <div className="App">
         <div className="">
-          <nav className="fixed bottom-0 bg-yellow-300 w-full py-4">
-                <Link className="w-8 text-4xl bg-white rounded-full p-1" to="/">🍻</Link>
+          <nav className="text-center fixed bottom-0 bg-yellow-300 w-full py-4">
+                <Link className="w-8 text-4xl  bg-white rounded-full p-1" to="/">🍻</Link>
           </nav>
           <Switch>
           <Route exact path="/randombeer">
